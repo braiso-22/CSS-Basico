@@ -27,3 +27,9 @@ elegir por atributo con valor concreto
 p b {
   color: maroon;
 }
+
+/*Pseudo clases*/
+
+b:hover {
+  color: yellow;
+}
