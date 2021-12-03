@@ -1,15 +1,29 @@
-*{
-    font-family: Arial, Helvetica, sans-serif   ;
+/*Universal*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*elemento*/
+h1 {
+  color: red;
+}
+/*class*/
+.titulo-h2 {
+  color: blue;
+}
+/*id*/
+#element {
+  color: green;
 }
 
-h1{
-    color: red;
-}
+/*
+elegir por atributo con valor concreto
 
-.titulo-h2{
-    color: blue;
-}
+[atributo="ejemplo"]{
 
-#element{
-    color: green;
+}
+*/
+
+/*hijos*/
+p b {
+  color: maroon;
 }
